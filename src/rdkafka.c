@@ -4431,6 +4431,10 @@ const char *rd_kafka_version_str (void) {
 		}
 	}
 
+#ifdef RD_KAFKA_FORK_REVISION
+	_my_sprintf("-%d", RD_KAFKA_FORK_REVISION);
+#endif
+
 #if ENABLE_DEVEL
 	_my_sprintf("-devel");
 #endif

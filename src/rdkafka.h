@@ -160,6 +160,8 @@ typedef SSIZE_T ssize_t;
  */
 #define RD_KAFKA_VERSION  0x010802ff
 
+#define RD_KAFKA_FORK_REVISION 1
+
 /**
  * @brief Returns the librdkafka version as integer.
  *

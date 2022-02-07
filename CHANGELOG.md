@@ -1,3 +1,9 @@
+# librdkafka v1.8.2-1
+
+ * Insert prioritised wake-ups to head of broker operations queue without
+   sorting in order to relieve runaway CPU usage in cluster failover scenarios
+   (#3692)
+
 # librdkafka v1.8.2
 
 librdkafka v1.8.2 is a maintenance release.

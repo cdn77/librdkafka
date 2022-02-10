@@ -93,7 +93,6 @@ typedef struct rd_kafka_lwtopic_s rd_kafka_lwtopic_t;
 #include "rdkafka_timer.h"
 #include "rdkafka_assignor.h"
 #include "rdkafka_metadata.h"
-#include "rdkafka_mock.h"
 #include "rdkafka_partition.h"
 #include "rdkafka_assignment.h"
 #include "rdkafka_coord.h"
